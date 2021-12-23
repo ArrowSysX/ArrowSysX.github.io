@@ -1,0 +1,161 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    user-select: none;
+    color: #dfdfdf;
+    background: #001220;
+}
+
+body {margin:0;padding:0}
+
+#container-bg {
+    z-index: 0;
+    overflow: hidden;
+    border-bottom: 6px solid #dfdfdf;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+}
+
+
+/*  CSSX  -  A lightweight, portable CSS framework like TailwindCSS except without colors!  */
+
+.heading {
+    font-size: 3.5rem;
+}
+
+.lower-heading {
+    font-size: 2.25rem;
+}
+
+.main-content {
+    margin-top: 48px;
+    margin-left: 36px;
+    margin-right: 436px;
+}
+
+.small-heading {
+    font-size: 2.15rem;
+    padding-bottom: 12px;
+}
+
+.inner-content {
+    font-size: 1.15rem;
+    font-family: 'Source Code Pro', monospace;
+    padding-bottom: 72px;
+}
+
+.footer-wrapper {
+    display: table;
+    height: 128px;
+    width: 100%;
+    background-color: #112331;
+    overflow: hidden;
+}
+
+.docbutton {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.footer {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.link {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: rgb(0, 107, 201);
+    transition: color 0.2s ease-out;
+}
+
+.link:hover {
+    color: rgb(0, 96, 180);
+}
+
+.link::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: rgb(0, 96, 180);
+    transition: width 0.2s ease-out;
+}
+
+.link:hover::before {
+    left: 0;
+    right: auto;
+    width: 100%;
+}
+
+.link-slow {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: rgb(0, 107, 201);
+    transition: color 0.2s ease-out;
+}
+
+.link-slow:hover {
+    color: rgb(0, 96, 180);
+}
+
+.link-slow::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: rgb(0, 96, 180);
+    transition: width 0.6s ease-out;
+}
+
+.link-slow:hover::before {
+    left: 0;
+    right: auto;
+    width: 100%;
+}
+
+.modal {
+    position: fixed;
+    z-index: 999;
+    margin-top: -50%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    height: 65%;
+    background-color: rgb(255,255,255);
+    border-radius: 35px;
+}
+
+.mhg {
+    font-size: 0.2rem;
+    vertical-align: center;
+}
+
+.navbar-wrapper {
+    display: table;
+    position: fixed;
+    width: auto;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    height: 64px;
+    background-color: #112331;
+    overflow: hidden;
+    border-bottom-right-radius: 25px;
+}
+.inner-navbar {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 8px;
+    padding-right: 16px;
+}
+
+/*  End CSSX  */
