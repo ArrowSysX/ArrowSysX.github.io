@@ -1,6 +1,6 @@
 # ArrowSysX.github.io
 
-## how to compile:
+## how to compile docs:
 
 ### windows:
 npm install -g honkit </br>
