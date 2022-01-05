@@ -30,7 +30,6 @@ jobs:
       - name: Converts
         run: |
           cd ArrowSysX.github.io
-          npm install
           node -/markdown-to-html-github-style/convert.js MyPageTitle
       - name: 'Upload Artifact'
         uses: actions/upload-artifact@v2
