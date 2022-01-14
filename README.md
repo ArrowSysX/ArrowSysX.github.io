@@ -1,6 +1,7 @@
-# ArrowSysX.github.io
+# SystemX Website
+This repository is used for the SystemX website. GitHub Pages is used to host it, and it works amazing! Shoutout to everyone at GitHub who make and maintain Pages.
 
-## how to compile docs:
+## Docs compilation process
 
 ### 1st
 make a folder with all md adding from the `mdorg` folder
