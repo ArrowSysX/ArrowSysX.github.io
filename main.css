@@ -16,7 +16,7 @@ body {margin:0;padding:0}
 }
 
 
-/*  CSSX  -  A lightweight, portable CSS framework like TailwindCSS except without colors!  */
+/*  CSSX  -  A lightweight, portable CSS framework like TailwindCSS or BaseX!  */
 
 .heading {
     font-size: 3.5rem;
